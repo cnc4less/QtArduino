@@ -2,8 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QPushButton>
-#include "QtSerialPort/QSerialPort"
 namespace Ui {
 class MainWindow;
 }
@@ -21,9 +19,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    QSerialPort *port;
-
-
 };
 
 #endif // MAINWINDOW_H
